@@ -4,6 +4,7 @@ import news_bg from "@/assets/news_bg.svg";
 import PageHero from "@/components/PageHero";
 import CategorywiseNews from "@/components/CategorywiseNews";
 import NewsCategory from "./_components/NewsCategory";
+import LatestNews from "./_components/LatestNews";
 
 export default function page() {
   return (
@@ -14,7 +15,8 @@ export default function page() {
 
         <div className="mt-40">
           <NewsCategory />
-          <CategorywiseNews />
+          {/* <CategorywiseNews /> */}
+          <LatestNews />
         </div>
       </div>
     </div>
