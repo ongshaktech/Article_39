@@ -10,7 +10,7 @@ export default function PageHeading({ bg, title }) {
         height: "100%",
       }}
     >
-      <h2 className="uppercase text-4xl font-bold py-10 bg-black w-[400px]">
+      <h2 className="uppercase text-4xl font-bold py-10 bg-black w-1/2">
         {title}
       </h2>
     </div>
