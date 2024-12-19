@@ -1,4 +1,5 @@
 import LatestNewsCard from "@/components/LatestNewsCard";
+import TheLatestCard from "@/components/TheLatestCard";
 import React from "react";
 
 export default function LatestNews() {
@@ -28,6 +29,18 @@ export default function LatestNews() {
               content.
             </p>
           </div>
+          <h1 className="uppercase text-2xl font-bold pb-8 border-b border-b-gray-700 mb-4 text-black mt-8">
+            The Latest
+          </h1>
+
+          <div className="flex flex-col gap-4">
+            <TheLatestCard />
+            <TheLatestCard />
+            <TheLatestCard />
+            <TheLatestCard />
+            <TheLatestCard />
+          </div>
+
         </div>
       </div>
     </div>
