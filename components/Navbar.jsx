@@ -40,6 +40,7 @@ export default function Navbar() {
               <AiFillTikTok className="fill-white w-6 h-6" />
               <IoLogoYoutube className="fill-white w-6 h-6" />
             </div>
+            
           </div>
         </div>
       </div>
