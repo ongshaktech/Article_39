@@ -6,6 +6,7 @@ import PageHeading from "@/components/PageHeading";
 import PageHero from "@/components/PageHero";
 import NewsCategory from "../news/_components/NewsCategory";
 import OurPartners from "./_components/OurPartners";
+import OurSponsor from "./_components/OurSponsor";
 
 export default function page() {
   return (
@@ -22,6 +23,7 @@ export default function page() {
         <div className="mt-40">
           <NewsCategory />
           <OurPartners />
+          <OurSponsor />
           {/* <LatestNews /> */}
         </div>
       </div>

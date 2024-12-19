@@ -1,18 +1,18 @@
 import Image from "next/image";
 import React from "react";
-import partner1 from "@/assets/partners/partner1.svg";
-import partner2 from "@/assets/partners/partner2.svg";
-import partner3 from "@/assets/partners/partner3.svg";
-import partner4 from "@/assets/partners/partner4.svg";
-import partner5 from "@/assets/partners/partner5.svg";
-import partner6 from "@/assets/partners/partner6.svg";
-import partner7 from "@/assets/partners/partner7.svg";
+import partner1 from "@/assets/sponsors/sponsor1.svg";
+import partner2 from "@/assets/sponsors/sponsor2.svg";
+import partner3 from "@/assets/sponsors/sponsor3.svg";
+import partner4 from "@/assets/sponsors/sponsor4.svg";
+import partner5 from "@/assets/sponsors/sponsor5.svg";
+import partner6 from "@/assets/sponsors/sponsor6.svg";
+import partner7 from "@/assets/sponsors/sponsor7.svg";
 
-export default function OurPartners() {
+export default function OurSponsor() {
   return (
     <div className="my-16">
       <h1 className="uppercase text-4xl font-bold pb-8 border-b border-b-gray-700 mb-8 text-black">
-        Our Partners
+        Our Sponsor
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-20 justify-center items-center">
         <Image src={partner1} alt="Prothom Alo" />
