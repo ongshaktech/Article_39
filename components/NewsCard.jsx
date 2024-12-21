@@ -1,5 +1,5 @@
 import React from "react";
-import news_img from "@/assets/feature_img.svg";
+import news_img from "@/assets/news_img.svg";
 import Image from "next/image";
 
 export default function NewsCard() {

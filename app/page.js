@@ -6,10 +6,11 @@ import TheLatestCard from "@/components/TheLatestCard";
 import NewsCard from "@/components/NewsCard";
 import Features from "./_components/Features";
 import Magazine from "./_components/Magazine";
+import NewsCategory from "./news/_components/NewsCategory";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-white">
       <div className="container grid grid-cols-1 md:grid-cols-3 bg-white ">
         <div className="col-span-2  ">
           <PageHero
@@ -73,6 +74,9 @@ export default function Home() {
 
       <Features />
       <Magazine />
+      <div className="container bg-white py-10">
+        <NewsCategory />
+      </div>
     </div>
   );
 }

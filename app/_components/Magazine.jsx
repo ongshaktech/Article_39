@@ -7,7 +7,7 @@ import magazine_img from "@/assets/magazine_img.svg";
 
 export default function Magazine() {
   return (
-    <div className="bg-white">
+    <div className="bg-white py-10">
       <h1 className="container uppercase text-3xl font-bold pb-8 border-b border-b-gray-700 mb-4 text-black pt-8">
         ARTICLE39 MAGAZINE
       </h1>
