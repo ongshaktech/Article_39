@@ -52,12 +52,18 @@ export default function Navbar() {
               <Link href="/podcast">
                 <p>Podcast</p>
               </Link>
-              <p>Career</p>
-              <p>About us</p>
+              <Link href="/career">
+                <p>Career</p>
+              </Link>
+              <Link href="/about-us">
+                <p>About us</p>
+              </Link>
             </div>
           </div>
           <div className="flex gap-8 items-center">
-            <p>Newsletters</p>
+            <Link href="/newsletter">
+              <p>Newsletters</p>
+            </Link>
             <div className="hidden md:flex gap-3 items-center uppercase text-sm">
               <AiFillInstagram className="fill-white w-6 h-6" />
               <AiFillTikTok className="fill-white w-6 h-6" />
