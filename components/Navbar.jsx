@@ -37,9 +37,9 @@ export default function Navbar() {
               )}
             </div>
             <div className="">
-              <Image src={logo} alt="Article 39" />
+              <Image src={logo} alt="Article 39" className="w-20 md:w-auto" />
             </div>
-            <div className="flex gap-6 items-center uppercase text-sm">
+            <div className="hidden md:flex gap-6 items-center uppercase text-sm">
               <p>News</p>
               <p>Culture</p>
               <p>Entertainment</p>
@@ -50,7 +50,7 @@ export default function Navbar() {
           </div>
           <div className="flex gap-8 items-center">
             <p>Newsletters</p>
-            <div className="flex gap-3 items-center uppercase text-sm">
+            <div className="hidden md:flex gap-3 items-center uppercase text-sm">
               <AiFillInstagram className="fill-white w-6 h-6" />
               <AiFillTikTok className="fill-white w-6 h-6" />
               <IoLogoYoutube className="fill-white w-6 h-6" />

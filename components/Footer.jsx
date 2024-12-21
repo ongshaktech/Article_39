@@ -8,17 +8,17 @@ import { IoLogoYoutube } from "react-icons/io";
 
 export default function Footer() {
   return (
-    <div className="py-8">
+    <div className="py-8 px-4">
       <div className="container flex py-6">
-        <div className="w-1/2">
-          <h2 className="text-3xl font-bold uppercase">
+        <div className="w-full md:w-1/2">
+          <h2 className="text-xm md:text-3xl font-bold uppercase">
             Stay updated with latest news!
           </h2>
-          <h2 className="text-3xl font-bold uppercase mt-3">
+          <h2 className="text-xm md:text-3xl font-bold uppercase mt-3">
             SIGN UP FOR newsletter today!
           </h2>
 
-          <div className="flex items-center mt-8">
+          <div className="w-full flex items-center mt-8">
             <input
               type="email"
               placeholder="Your email.."
@@ -38,7 +38,7 @@ export default function Footer() {
 
       <div className="container flex flex-col items-center gap-4 justify-center mt-8">
         <div className="">
-          <Image src={logo} alt="Article 39" />
+          <Image src={logo} alt="Article 39" className="w-20 md:w-auto" />
         </div>
         <div className="flex gap-3 items-center uppercase text-sm">
           <AiFillInstagram className="fill-white w-6 h-6" />
@@ -46,7 +46,7 @@ export default function Footer() {
           <IoLogoYoutube className="fill-white w-6 h-6" />
           <FaFacebookSquare className="fill-white w-6 h-6" />
         </div>
-        <div className="flex gap-6 items-center uppercase text-sm">
+        <div className="flex flex-col md:flex-row gap-6 items-center uppercase text-sm">
           <p>About</p>
           <p>ACCESSIBILITY</p>
           <p>PRIVACY POLICY</p>
