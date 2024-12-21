@@ -6,7 +6,7 @@ export default function NewsCard() {
   return (
     <div className="border">
       <Image src={news_img} alt="News" className="w-full h-auto" />
-      <div className="p-4 flex flex-col gap-2">
+      <div className="px-4 py-6 flex flex-col gap-2">
         <p className="text-xs underline">News</p>
         <h2 className="font-bold">
           Brain stimulation can help injured people walk: study

@@ -10,7 +10,7 @@ export default function NewsCategory() {
           POLITICAL
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
           <NewsCard />
           <NewsCard />
           <NewsCard />
@@ -22,7 +22,7 @@ export default function NewsCategory() {
           NATIONWIDE
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
           <NewsCard />
           <NewsCard />
           <NewsCard />
@@ -34,7 +34,7 @@ export default function NewsCategory() {
           INTERNATIONAL
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
           <NewsCard />
           <NewsCard />
           <NewsCard />
@@ -46,7 +46,7 @@ export default function NewsCategory() {
           ECONOMY
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
           <NewsCard />
           <NewsCard />
           <NewsCard />
@@ -58,7 +58,7 @@ export default function NewsCategory() {
           LAW
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
           <NewsCard />
           <NewsCard />
           <NewsCard />
@@ -70,7 +70,7 @@ export default function NewsCategory() {
         CRIME
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
           <NewsCard />
           <NewsCard />
           <NewsCard />
@@ -82,7 +82,7 @@ export default function NewsCategory() {
         INTVESTIGATIONS
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
           <NewsCard />
           <NewsCard />
           <NewsCard />
