@@ -8,7 +8,7 @@ import magazine_img from "@/assets/magazine_img.svg";
 export default function Magazine() {
   return (
     <div className="bg-white py-10">
-      <h1 className="container uppercase text-3xl font-bold pb-8 border-b border-b-gray-700 mb-4 text-black pt-8">
+      <h1 className="container uppercase text-3xl font-bold pb-8 border-b border-b-gray-700 mb-4 text-black pt-8 px-4">
         ARTICLE39 MAGAZINE
       </h1>
       <div className="container grid grid-cols-1 md:grid-cols-5 bg-white ">
@@ -39,7 +39,7 @@ export default function Magazine() {
                   <LatestNews />
                 </div> */}
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-20 text-black">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-20 text-black px-4">
             <NewsCard />
             <NewsCard />
           </div>

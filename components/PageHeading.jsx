@@ -3,7 +3,7 @@ import React from "react";
 export default function PageHeading({ bg, title }) {
   return (
     <div
-      className="container bg-center bg-cover"
+      className="container bg-center bg-cover px-4"
       style={{
         backgroundImage: `url(${bg.src})`,
         width: "100%",

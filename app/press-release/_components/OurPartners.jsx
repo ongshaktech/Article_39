@@ -15,15 +15,43 @@ export default function OurPartners() {
         Our Partners
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-20 justify-center items-center">
-        <Image src={partner1} alt="Prothom Alo" />
-        <Image src={partner2} alt="Prothom Alo" />
-        <Image src={partner3} alt="Prothom Alo" />
-        <Image src={partner4} alt="Prothom Alo" />
-        <Image src={partner5} alt="Prothom Alo" />
+        <Image
+          src={partner1}
+          alt="Prothom Alo"
+          className="w-40 md:w-auto mx-auto"
+        />
+        <Image
+          src={partner2}
+          alt="Prothom Alo"
+          className="w-40 md:w-auto mx-auto"
+        />
+        <Image
+          src={partner3}
+          alt="Prothom Alo"
+          className="w-40 md:w-auto mx-auto"
+        />
+        <Image
+          src={partner4}
+          alt="Prothom Alo"
+          className="w-40 md:w-auto mx-auto"
+        />
+        <Image
+          src={partner5}
+          alt="Prothom Alo"
+          className="w-40 md:w-auto mx-auto"
+        />
       </div>
-      <div className="flex justify-center items-center mt-16 gap-10">
-        <Image src={partner6} alt="Prothom Alo" />
-        <Image src={partner7} alt="Prothom Alo" />
+      <div className="flex flex-col md:flex-row justify-center items-center mt-16 gap-10">
+        <Image
+          src={partner6}
+          alt="Prothom Alo"
+          className="w-40 md:w-auto mx-auto"
+        />
+        <Image
+          src={partner7}
+          alt="Prothom Alo"
+          className="w-40 md:w-auto mx-auto"
+        />
       </div>
     </div>
   );

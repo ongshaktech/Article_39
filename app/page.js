@@ -26,7 +26,7 @@ export default function Home() {
           <LatestNews />
         </div> */}
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-20 text-black">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-20 text-black px-4">
             <NewsCard />
             <NewsCard />
             <NewsCard />
@@ -74,7 +74,7 @@ export default function Home() {
 
       <Features />
       <Magazine />
-      <div className="container bg-white py-10">
+      <div className="container bg-white py-10 px-4">
         <NewsCategory />
       </div>
     </div>
