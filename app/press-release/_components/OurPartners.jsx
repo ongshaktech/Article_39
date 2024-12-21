@@ -45,12 +45,12 @@ export default function OurPartners() {
         <Image
           src={partner6}
           alt="Prothom Alo"
-          className="w-40 md:w-auto mx-auto"
+          className="w-40 md:w-auto mx-auto md:mx-0"
         />
         <Image
           src={partner7}
           alt="Prothom Alo"
-          className="w-40 md:w-auto mx-auto"
+          className="w-40 md:w-auto mx-auto md:mx-0"
         />
       </div>
     </div>
