@@ -11,10 +11,11 @@ export default function LatestPodcast() {
         height="700px"
         src="https://www.youtube.com/embed/uLPz0WmYv_E?si=DGWVNkicfSGmI0mB"
         title="YouTube video player"
-        frameborder="0"
+        frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
+        referrerPolicy="strict-origin-when-cross-origin"
+        allowFullScreen
+        className="w-full h-auto md:h-[700px]"
       ></iframe>
       <div className="my-6 flex flex-col gap-3">
         <h2 className="text-2xl font-bold">

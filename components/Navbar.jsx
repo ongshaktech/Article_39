@@ -49,6 +49,9 @@ export default function Navbar() {
               <Link href="/press-release">
                 <p>PR</p>
               </Link>
+              <Link href="/podcast">
+                <p>Podcast</p>
+              </Link>
               <p>Career</p>
               <p>About us</p>
             </div>
