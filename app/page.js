@@ -5,6 +5,7 @@ import Image from "next/image";
 import TheLatestCard from "@/components/TheLatestCard";
 import NewsCard from "@/components/NewsCard";
 import Features from "./_components/Features";
+import Magazine from "./_components/Magazine";
 
 export default function Home() {
   return (
@@ -71,6 +72,7 @@ export default function Home() {
       </div>
 
       <Features />
+      <Magazine />
     </div>
   );
 }
